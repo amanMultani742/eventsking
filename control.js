@@ -1,6 +1,7 @@
 // express
 const express =require("express");
 const app = express();
+const port = process.env.PORT || 8000;
 
 // ejs-mate
 const ejsMate = require('ejs-mate');
@@ -45,6 +46,6 @@ app.get('/Contact',(req,res)=>{
 app.get('/terms',(req,res)=>{
     res.render('terms')
 });
-app.listen(8080,()=>{
-    console.log("8080")
+app.listen(port,()=>{
+    console.log(`listening on ${port}`)
 })
