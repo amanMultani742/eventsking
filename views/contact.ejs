@@ -1,0 +1,100 @@
+<%- layout('layout/boilerplate')%>
+<!-- new form -->
+<div class="formWrapper  w-100 d-flex justify-content-evenly align-items-center">
+  
+  <div class="formLeft bg-dark col-5 d-flex flex-column justify-content-evenly">
+    <!-- first div  -->
+    <div class=" px-3 message fs-3  text-dark d-flex justify-content-center align-items-center" style="height: 10%;">
+      <span class="text-white">Get In Touch</span>
+      <!-- <i class="far fa-envelope"></i> -->
+    </div>
+    <!-- second div -->
+    <div class="form d-flex flex-column justify-content-evenly align-items-center">
+      <form action="/message" method="POST">
+        <div class="row g-4 d-flex justify-content-center" style=" margin: 0; padding: 0;">
+            <div class="col-8">
+              <input type="text" class="form-control p-3 text-light" placeholder="Name" id="Name" style="background: transparent;">
+            </div>
+            <div class="col-8">
+              <input type="text" class="form-control p-3 text-light" placeholder="Phone" id="Phone" style="background: transparent;">
+            </div>
+            <div class="col-8 ">
+              <input type="email" class="form-control p-3 text-light" placeholder="Email Address" id="Email" style="background: transparent;">
+            </div>
+            <div class="col-8">
+              <textarea name="Message" class="form-control p-3 text-light" id="Message" placeholder="Message" required="" style="background: transparent;"></textarea>
+            </div>
+            <div class="col-8 d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary ">Submit</button>
+            </div>
+        </div> 
+      </form>
+    </div>
+  </div>
+
+  <div class="formRight col-5 bg-white">
+    <div class="rightinner d-flex  justify-content-evenly h-50">
+    <div class="card1 col-4 text-center "data-aos="zoon-in" style="border-radius: 10px;">
+      <h2><img src="https://img.icons8.com/material/48/000000/marker.png"/></h2>
+      <h1 class="fs-4">Address</h1>
+      <address>Tanda road Begowal, Opp. Suraj Filling Station near Kapil Colony
+          Begowal, Punjab</address>
+    </div>
+    <div class="card1 col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="500">
+      <h2><img src="https://img.icons8.com/material/48/000000/new-post.png"/></h2>
+      <h1 class="fs-4">Email</h1>
+      <p>preet93@mail.com</p>
+    </div>
+    <div class="card1 col-md-3 text-center" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
+      <h2><img src="https://img.icons8.com/material/48/000000/iphone.png"/></h2>
+      <h1 class="fs-4">Phone</h1>
+      <p>+9185289-77021</p>
+    </div>
+  </div>
+
+
+     <!-- Map -->
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13590.58957491228!2d75.5204428!3d31.6161203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95de01e648f52e6a!2sEvents%20King!5e0!3m2!1sen!2sin!4v1630424578256!5m2!1sen!2sin" width="624" height="254" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  </div>
+ 
+</div> 
+
+<!-- New updated form -->
+<!-- <div class="formWrapper w-100 d-flex justify-content-evenly align-items-center ">
+  <div class="formLeft w-50 d-flex flex-column justify-content-center align-items-center " style="height: 70vh;">
+
+    <form action="/message" method="POST">
+      <div class="row g-4 d-flex align-items-center justify-content-center">
+          <div class="col-8">
+            <input type="text" class="form-control p-3 text-light" placeholder="Name" id="Name" style="background: transparent;">
+          </div>
+          <div class="col-8">
+            <input type="text" class="form-control p-3" placeholder="Phone" id="Phone">
+          </div>
+          <div class="col-8">
+            <input type="email" class="form-control p-3" placeholder="Email Address" id="Email">
+          </div>
+          <div class="col-8">
+            <textarea name="Message" class="form-control p-3" id="Message" placeholder="Message" required=""></textarea>
+          </div>
+          <div class="col-8 d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+      </div> 
+    </form>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  
+</div> -->

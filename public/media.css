@@ -1,0 +1,386 @@
+
+@media only screen and (min-width:320px) and (max-width:480px){ 
+    .header .mailInfo{
+        min-width: 70%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar .container-fluid .navbar-brand{
+        padding-left: 0;
+    }
+    .heroImg{
+        padding-left: 0;
+    }
+    .heroImg h1{
+        font-size: 2rem;
+    }
+    .heroImg h2{
+        font-size: 1rem;
+    }
+    .service .row{
+        
+        display: block;
+        height: 130vh;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .service .row .card1{
+        max-width: 80%;
+        
+        
+        
+        
+    }
+    .aboutUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .aboutUs .aboutInner{
+        
+        min-width: 80%;
+        margin: 0 auto;
+        
+        
+    }
+    .aboutUs .aboutInner .borderLeft h1{
+        font-size: 2rem;
+    }
+    .aboutUs .aboutInner p{
+        width: 80%;
+        padding-left: 1em;
+    }
+    .aboutUs .aboutInner .btn{
+        margin-left: 1em;
+    }
+    .aboutUs .innerRight{
+        
+        min-width: 80%;
+        margin: 1em 0 0 1em;
+
+    }
+    .aboutUs .innerRight .content{
+        display: block;
+    }
+    .contactUs{
+        height: 90vh;
+        
+        
+       
+    }
+    
+    
+    .contactUs .card1{
+        width: 80%;
+        margin-top: 1em;
+    }
+    .footer{
+        height: 50vh;
+        
+    }
+    /* .footer .row{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    } */
+    .footer .row .footerContent h4{
+        text-align: center;
+        
+    }
+    .footer .footerContent .footerNav{
+        min-width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .row .navbar-brand{
+        text-align: center;
+    }
+    .footer .Copyrights p{
+        font-size: .8em;
+    }
+    /* Why US page */
+    .wrapper .whyusHero{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    
+    
+    }
+    .wrapper .whyusHero .whyusContent{
+        width: 100%;
+        height: inherit;
+        margin: 0;
+        padding-left:1em ;
+    
+    }
+    .wrapper .whyusHero .whyusContent h2{
+        font-size: 2rem;
+
+    }
+    .wrapper .whyusImg{
+        min-width: 100%;
+        
+    }
+    .wrapper .whyusImg img{
+        width: 60%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+    }
+    .wrapper .svg1 svg{
+        position: absolute;
+        top: 80%;
+    }
+    
+    .whyusText .row .textOne{
+        
+        margin: .5em auto;
+        padding: 0;
+        
+    }
+    /* service page */
+    .formWrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formWrapper .formLeft{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .formWrapper .formRight {
+        width: 100%;
+        height: auto;
+    }
+    .formWrapper .formRight .card1{
+        min-width: 80%;
+        
+        
+    }
+    .formWrapper .formRight .rightinner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        min-width: 100%;
+    
+    }
+ }
+
+ @media only screen and (min-width:481px) and (max-width: 768px) {
+    .header .mailInfo{
+        min-width: 70%;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar .container-fluid .navbar-brand{
+        padding-left: 0;
+    }
+    .heroImg{
+        padding-left: 0;
+    }
+    .heroImg h1{
+        font-size: 2rem;
+    }
+    .heroImg h2{
+        font-size: 1rem;
+    }
+    .service .row{
+    
+        height: 130vh;
+    }
+    
+    .service .row .card1{
+        max-width: 80%;
+        
+        
+        
+    }
+    .aboutUs{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .aboutUs .aboutInner{
+        
+        min-width: 80%;
+        margin: 0 auto;
+        
+        
+    }
+    .aboutUs .aboutInner .borderLeft h1{
+        font-size: 2rem;
+    }
+    .aboutUs .aboutInner p{
+        width: 80%;
+        padding-left: 1em;
+    }
+    .aboutUs .aboutInner .btn{
+        margin-left: 1em;
+    }
+    .aboutUs .innerRight{
+        
+        min-width: 80%;
+        margin: 1em 0 0 1em;
+
+    }
+    .aboutUs .innerRight .content{
+        display: block;
+    }
+    .contactUs{
+        height: 60vh;
+        
+        
+       
+    }
+
+    
+    
+    .contactUs .card1{
+        width: 80%;
+        margin-top: 2em;
+    }
+    .footer{
+        height: 50vh;
+        
+    }
+    /* .footer .row{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    } */
+    .footer .row .footerContent h4{
+        text-align: center;
+        
+    }
+    .footer .footerContent .footerNav{
+        min-width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .row .navbar-brand{
+        text-align: center;
+    }
+    .footer .Copyrights p{
+        font-size: .8em;
+    }
+    /* Why US page */
+    .wrapper .whyusHero{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    
+    
+    }
+    .wrapper .whyusHero .whyusContent{
+        width: 100%;
+        height: inherit;
+        margin: 0;
+        padding-left:1em ;
+    
+    }
+    .wrapper .whyusHero .whyusContent h2{
+        font-size: 3rem;
+
+    }
+    .wrapper .whyusHero .whyusContent p{
+        font-size: 1.5em;
+    }
+    .wrapper .whyusImg{
+        min-width: 100%;
+        
+    }
+    .wrapper .whyusImg img{
+        width: 60%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+    }
+    .wrapper .svg1 svg{
+        position: absolute;
+        top: 70%;
+    }
+    
+    .whyusText .row .textOne{
+        
+        margin: .5em auto;
+        padding: 0;
+        
+    }
+    /* service */
+    .formWrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formWrapper .formLeft{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .formWrapper .formRight {
+        width: 100%;
+        height: auto;
+    }
+    .formWrapper .formRight .card1{
+        min-width: 80%;
+        
+        
+    }
+    .formWrapper .formRight .rightinner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        min-width: 100%;
+    
+    }
+
+ }
+ /* @media only screen and (min-width:769px) and (max-width: 1023px){
+
+ } */
+
+ @media only screen and (min-width:1024px) and (max-width: 1198.98px){
+
+    .wrapper .whyusImg img{
+        width: 35%;
+        height: 80%;
+        position: absolute;
+        top: 25%;
+        right: 0;
+        z-index: 100;    
+    }
+}

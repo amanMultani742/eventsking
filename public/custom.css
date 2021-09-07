@@ -1,0 +1,306 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+body{
+    font-family: 'Besley', serif;
+}
+/* navbar custom */
+.header{
+    height: 3em; 
+    width: 100%;
+}
+
+.header .headerSocial .fab{
+    color: #ffc107;
+    
+}
+.header .headerSocial .fab:hover{
+    cursor: pointer;
+    animation: social .35s  1 ;
+
+}
+/* navbar padding Important */
+.navbar .container-fluid .navbar-brand{
+    padding-left: 5em;
+}
+
+
+/* .navbar .container-fluid #navbarNavAltMarkup #navHover a{
+    border-bottom: 3px solid transparent;
+    margin-right: .5em;
+} */
+.container-fluid .navbar #navbarBrand .navbar-brand{
+    font-family: 'Besley', serif;
+    font-size: 2em;
+    color: #FFD700;
+}
+
+.navbar .container-fluid #navbarNavAltMarkup #navHover a:hover{
+    color: #ffc107;
+}
+
+.heroImg{
+   
+    width: 100%;
+    height: 89vh;
+    padding-left: 3.5em;
+    background: url("img/back3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: hsla(20, 89%, 89%, 1);
+    background: linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(20, 89%, 89%, 1) 0%, hsla(324, 57%, 77%, 1) 50%, hsla(278, 54%, 81%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCDBCA", endColorstr="#E6A5CC", GradientType=1 ); */
+}
+/* .heroImg .innerHero{
+    padding-left: 4em;
+    position: relative;
+    
+} */
+.heroImg h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Besley', serif;
+    position: relative;
+}
+.heroImg h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family:  serif;
+    position: relative;
+}
+
+.service .row{
+    background-color:white;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+
+}
+.service .row .card1{
+    max-width: 20%;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    /* padding: 3em 2em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.service .card1 .cardInner{
+    padding-left: 1.5em;
+    padding-top: 1em;
+    height: 70%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* about us */
+.aboutUs{
+    width: 100%;
+    height: 100vh;
+}
+
+.aboutUs .aboutInner p{
+    font-size:1rem;
+}
+
+.aboutUs .aboutInner .borderLeft{
+    border-left: 6px solid#ffc107;
+    height: auto;
+    padding-left: .5em;
+    
+
+}
+.aboutUs::before{
+    content: "";
+    width: 20em;
+    height: 15em;
+    position: absolute;
+    left: 20%;
+    top: 210%;
+    
+    background-color:#dd39ac;
+    filter: blur(50px);
+    opacity: .3;
+    border-radius: 50%;
+}
+.aboutUs::after{
+    content: "";
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    right: 20%;
+    top: 150%;
+    background-color: rgb(41, 170, 24);
+    filter: blur(30px);
+    opacity: .3;
+    border-radius: 50%;
+}
+.aboutUs .aboutInner h1{
+    font-size: 3em;
+}
+.aboutUs .aboutInner p{
+    font-size: 1.3em;
+}
+/* left stuff */
+.aboutUs .innerRight .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs .innerRight .content{
+    font-size: 1.3em;
+}
+/* contact us */
+.contactUs{
+    height: 52vh;
+}
+
+.contactUs .card1{
+    /* box-shadow:0px 8px 24px rgba(68, 88, 144, .4); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* comment */
+.comment .commentSlider{
+overflow: hidden;
+height: 100%;
+}
+.comment .commentSlider .slide{
+    float: left;
+    width: 100%;
+    height: 15em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+/* footer */
+.footer{
+    height: 40vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+.footer .social .fab{
+    color: black;
+}
+.footer .social .fab:hover{
+    
+    cursor: pointer;
+    animation: social .35s  1 ;
+    
+}
+.footer .footer-brand{
+    color:#FFD700;
+    font-family: 'Besley', serif;
+
+}
+.Copyrights{
+    width: 100%;
+    height: 3.5em;
+}
+/* .Copyrights p{
+    font-weight:200;
+} */
+@keyframes social{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+/************************ */
+/* Why us page styling */
+/* svg */
+.wrapper .whyusHero{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.wrapper .whyusContent{
+    padding-left: 7em;
+}
+.wrapper .whyusHero .whyusContent h2{
+    font-size: 4rem;
+}
+.wrapper .whyusImg img{
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    top: 25%;
+    z-index: 100;    
+}
+.wrapper .svg1{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.wrapper .svg1 svg{
+    position: absolute;
+    top: 60%;
+    
+}
+/* whyusText */
+.wrapper .whyusText .textOne{
+    height: 45vh;
+    
+
+}
+/* Contac Us */
+.formWrapper{
+    
+    width: 100vw;
+    height: 85vh;
+    
+}
+
+.formWrapper .formLeft,.formRight{
+    
+    height: 70vh;
+    /* border-radius: 12px;
+    border: 1px solid rgba(216, 204, 204, 0.363);
+    
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    background-color: rgba(90, 14, 14, 0.397); */
+}
+
+.formWrapper .formLeft *::placeholder{
+    color: white;
+}
+.formWrapper .formLeft::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    border-radius: 50%;
+    background: blue;
+    filter: blur(30px);
+    -webkit-filter: blur(8px);
+    opacity: .2;
+}
+
+
+
